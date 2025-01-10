@@ -1,6 +1,9 @@
+-- Schema usage privileges
+GRANT USAGE ON SCHEMA education_main TO admin_role, teacher_role, student_role, manager_role;
+GRANT USAGE ON SCHEMA education_refs TO admin_role, teacher_role, student_role, manager_role;
+
 -- Admin privileges
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA education_main TO admin_role;
-GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA education_auth TO admin_role;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA education_refs TO admin_role;
 
 -- Teacher privileges
