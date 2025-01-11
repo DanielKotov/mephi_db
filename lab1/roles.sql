@@ -3,8 +3,6 @@ DROP ROLE IF EXISTS admin_role;
 DROP ROLE IF EXISTS teacher_role;
 DROP ROLE IF EXISTS student_role;
 DROP ROLE IF EXISTS manager_role;
-DROP ROLE IF EXISTS education_staff;
-DROP ROLE IF EXISTS education_users;
 
 -- Create roles
 CREATE ROLE admin_role LOGIN PASSWORD 'admin123';
